@@ -1,1 +1,38 @@
+body {
+    background-color: lightblue; 
+    font-family: Arial;
+}
 
+.my-calculator {
+    width: 280px;
+    margin: 50px auto;
+    background-color: white; 
+    border: 5px solid black; /* Big thick borders */
+    padding: 20px;
+    text-align: center;
+}
+
+#screen {
+    background-color: white;
+    border: 3px solid black;
+    height: 50px;
+    line-height: 50px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+button:active {
+    background-color: gray; /* Shows you clicked it */
+}
